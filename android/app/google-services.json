@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "537831776333",
+    "project_id": "stickiedb-35697",
+    "storage_bucket": "stickiedb-35697.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537831776333:android:88e595372c287b9d397c04",
+        "android_client_info": {
+          "package_name": "com.example.sticker_map"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr5Yq1mL0JM061begIZvq9QOhVPfSXMY0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
