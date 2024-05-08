@@ -11,7 +11,7 @@ class UsersAPI {
   }
 
   Future<String> getUsers() async {
-    var url = Uri.https('127.0.0.1:8000', '/users');
+    var url = Uri.https('73.25.117.34:8000', '/users');
     var response = await http.get(url);
     return response.body;
   }
@@ -21,8 +21,9 @@ class UsersAPI {
     String username = prefs.getString('username') ?? 'no_username_set';
 
     if (username == 'no_username_set') {
-      var url = Uri.https('http://127.0.0.1:8000/users', '');
+      var url = Uri.https('http://73.25.117.34:8000/users', '');
       var response = await http.get(url);
+      print(response);
     }
 
     return username;
